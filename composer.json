@@ -1,0 +1,22 @@
+{
+    "name": "andra/teste",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Eduardo Santos Silva",
+            "email": "eduardos_silva@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "core\\": "core/"
+        },
+        "files": [
+            "config/config.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
